@@ -1,0 +1,46 @@
+body {
+  border-top: 10px solid purple;
+  background-color: beige;
+
+  font-family: sans-serif;
+}
+
+strong {
+  color: #bf360c;
+}
+
+.main_title {
+  font-size: 40px;
+}
+
+.navigation {
+  background-color: black;
+  padding: 8px;
+
+  border-radius: 8px;
+}
+
+.navigation_link {
+  color: white;
+  font-size: 22px;
+  margin: 10px;
+}
+
+.person_photo {
+  width: 90px;
+  height: 90px;
+
+  border-radius: 50%;
+}
+
+.post_photo {
+  width: 500px;
+}
+
+.light_color {
+  color: gray;
+}
+
+.sidebar_image {
+  width: 100px;
+}
