@@ -1,12 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  border-top: 10px solid purple;
   background-color: beige;
+
+  margin: 0;
 
   font-family: sans-serif;
 }
 
 strong {
   color: #bf360c;
+}
+
+.header__hero {
+  /* 
+  color: rgba(125, 55, 20, 0.471) ;
+  #rrggbb
+  #22ee99;
+
+  #rgb
+  #2e9
+  */
+
+  color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/hero.jpg);
+
+  background-size: cover;
+
+  /* vh , vw */
+
+  width: 100%;
+  height: 100vh;
+
+  padding: 36px;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.header__top {
+  font-size: 24px;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__top-content {
+}
+
+.header__bottom {
+  width: 480px;
+  margin-top: 220px;
+}
+
+.header__title {
+  font-weight: 700;
+  font-size: 44px;
+  margin-bottom: 24px;
+}
+
+.header__content {
+  margin-bottom: 44px;
+}
+
+.header__button {
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: orange;
+  color: #fff;
+  padding: 13px;
+  font-weight: 700;
 }
 
 .main_title {
